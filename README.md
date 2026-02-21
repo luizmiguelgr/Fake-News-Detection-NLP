@@ -56,8 +56,6 @@ Após baixar, envie para o ambiente do Google Colab apenas os arquivos necessár
 
 Baixe o projeto no GitHub e abra os notebooks no Google Colab.
 
-O Google Colab já possui as principais dependências necessárias para execução.
-
 ---
 
 ## 2° Execute no Colab
@@ -68,7 +66,7 @@ Envie para o ambiente apenas os arquivos necessários para cada notebook.
 
 # Escolha como executar
 
-## Treinar do zero
+## 1° Treinar do zero
 
 Notebook:
 
@@ -94,7 +92,7 @@ O notebook irá:
 
 - bilstm_classifier.keras  
 - model_metadata.pkl  
-- Pasta distilbert_tokenizer/
+- Pasta distilbert_tokenizer/ (onde tem o tokenizer.json)
 
 O arquivo test.csv não é necessário para o treinamento.
 
