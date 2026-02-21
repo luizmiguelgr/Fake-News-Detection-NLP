@@ -27,6 +27,7 @@ Texto
 
 # Estrutura do Repositório
 
+```
 Fake-News-Detection-NLP/
 │
 ├── models/
@@ -40,6 +41,7 @@ Fake-News-Detection-NLP/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -90,8 +92,6 @@ EDA__NLP_Ligia_Luiz_Miguel_Gonzaga.ipynb
 - Estatísticas do tamanho dos textos  
 - Frequência de palavras  
 
-Este notebook não realiza treinamento.
-
 ---
 
 # 2. Treinar o Modelo
@@ -121,9 +121,7 @@ Ambiente de execução → Executar tudo
 
 - bilstm_classifier.keras  
 - model_metadata.pkl  
-- tokenizer.json  
-
-O arquivo test.csv não é necessário para o treinamento.
+- tokenizer.json 
 
 ---
 
@@ -143,5 +141,3 @@ Inferencia__NLP_Ligia_Luiz_Miguel_Gonzaga.ipynb
 Ao executar o notebook, será gerado automaticamente o arquivo:
 
 submission.csv
-
-Este arquivo estará pronto para submissão na plataforma Kaggle.
