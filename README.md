@@ -44,6 +44,7 @@ Os arquivos `train.csv` e `test.csv` não estão versionados no GitHub devido ao
 
 Você pode baixar em:
 
+🏆 Google Drive  
 [<Google Drive >](https://drive.google.com/drive/folders/1qHiZDPJ4NQ0ZyfyC7-QH6vInu9AUYdxE?usp=sharing)
 
 🏆 Kaggle  
