@@ -1,12 +1,5 @@
 # Fake News Detection using DistilBERT + BiLSTM
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-Embeddings-red)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-BiLSTM-orange)
-![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
-![Colab](https://img.shields.io/badge/Google-Colab-F9AB00)
-![Status](https://img.shields.io/badge/Status-Complete-success)
-
 ## Descrição
 
 Projeto de Detecção de Fake News utilizando Transfer Learning com DistilBERT para geração de embeddings e BiLSTM como classificador final.
