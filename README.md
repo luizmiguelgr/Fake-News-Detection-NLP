@@ -6,6 +6,11 @@ Projeto de Detecção de Fake News utilizando Transfer Learning com DistilBERT p
 
 O projeto foi desenvolvido para a Liga de Inteligência Artificial - CIn/UFPE.
 
+O pipeline está organizado em três etapas independentes:
+- Análise Exploratória de Dados (EDA)
+- Treinamento do Modelo
+- Inferência e Geração de Submissão
+
 ---
 
 # Arquitetura do Modelo
@@ -52,6 +57,10 @@ Após baixar, envie para o ambiente do Google Colab apenas os arquivos necessár
 
 # Como Reproduzir o Projeto (Google Colab)
 
+O Google Colab já possui as principais dependências necessárias para execução.
+
+---
+
 ## 1° Baixe o repositório
 
 Baixe o projeto no GitHub e abra os notebooks no Google Colab.
@@ -64,9 +73,28 @@ Envie para o ambiente apenas os arquivos necessários para cada notebook.
 
 ---
 
-# Escolha como executar
+# 1. Rodar a Análise Exploratória de Dados (EDA)
 
-## 1° Treinar do zero
+Notebook:
+
+EDA__NLP_Ligia_Luiz_Miguel_Gonzaga.ipynb
+
+### Arquivo necessário
+
+- train.csv
+
+### O que será realizado
+
+- Análise da distribuição das classes  
+- Correlação entre subject e label  
+- Estatísticas do tamanho dos textos  
+- Frequência de palavras  
+
+Este notebook não realiza treinamento.
+
+---
+
+# 2. Treinar o Modelo
 
 Notebook:
 
@@ -80,25 +108,26 @@ No menu do Colab:
 
 Ambiente de execução → Executar tudo
 
-O notebook irá:
+### O que será realizado
 
-- Limpar os textos  
-- Gerar embeddings com DistilBERT  
-- Treinar o modelo BiLSTM  
-- Ajustar o threshold  
-- Salvar os artefatos do modelo  
+- Limpeza dos textos  
+- Tokenização com DistilBERT  
+- Geração de embeddings  
+- Treinamento do modelo BiLSTM  
+- Ajuste do threshold com base no F1-score  
+- Salvamento dos artefatos do modelo  
 
 ### Arquivos gerados
 
 - bilstm_classifier.keras  
 - model_metadata.pkl  
-- Pasta distilbert_tokenizer/ (onde tem o tokenizer.json)
+- tokenizer.json  
 
 O arquivo test.csv não é necessário para o treinamento.
 
 ---
 
-## Rodar apenas Inferência
+# 3. Rodar apenas Inferência
 
 Notebook:
 
@@ -109,7 +138,7 @@ Inferencia__NLP_Ligia_Luiz_Miguel_Gonzaga.ipynb
 - test.csv  
 - bilstm_classifier.keras  
 - model_metadata.pkl  
-- Pasta distilbert_tokenizer/
+- tokenizer.json  
 
 Ao executar o notebook, será gerado automaticamente o arquivo:
 
