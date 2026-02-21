@@ -9,18 +9,7 @@
 
 Projeto de **Detecção de Fake News** utilizando Transfer Learning com **DistilBERT** para geração de embeddings e **BiLSTM** como classificador final.
 
-O projeto foi desenvolvido para a disciplina de **Processamento de Linguagem Natural (NLP)**.
-
----
-
-# 📌 Objetivo
-
-Construir um pipeline robusto de classificação de notícias falsas utilizando:
-
-- Extração de embeddings contextualizados com DistilBERT
-- Classificação sequencial com BiLSTM
-- Otimização de threshold com F1-score
-- Avaliação com MCC e Precision-Recall Curve
+O projeto foi desenvolvido para a **Liga de Inteligência Aritifical - CIn/UFPE**.
 
 ---
 
@@ -31,7 +20,6 @@ Texto → Tokenizer (DistilBERT)
 → Dense
 → Sigmoid
 → Classificação (Fake / Real)
-
 
 ---
 
@@ -56,8 +44,7 @@ Os arquivos `train.csv` e `test.csv` não estão versionados no GitHub devido ao
 
 Você pode baixar em:
 
-📁 Google Drive  
-👉 <COLOCAR_LINK_DRIVE_AQUI>
+[<Google Drive >](https://drive.google.com/drive/folders/1qHiZDPJ4NQ0ZyfyC7-QH6vInu9AUYdxE?usp=sharing)
 
 🏆 Kaggle  
 👉 <COLOCAR_LINK_KAGGLE_AQUI>
